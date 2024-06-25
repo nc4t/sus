@@ -27,7 +27,6 @@ local TextButton_19 = Instance.new("TextButton")
 local TextButton_20 = Instance.new("TextButton")
 local TextButton_21 = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
-local ImageLabel = Instance.new("ImageLabel")
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -303,15 +302,7 @@ TextLabel.Text = "sol's rng | hub"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 14.000
 
-ImageLabel.Parent = main
-ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel.BorderSizePixel = 0
-ImageLabel.Position = UDim2.new(0.0352941193, 0, 0.1484375, 0)
-ImageLabel.Size = UDim2.new(0, 61, 0, 58)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=15000917321"
-
-local function VWDYGD_fake_script() -- main.DragScript 
+local function DDIYXZ_fake_script() -- main.DragScript 
 	local script = Instance.new('LocalScript', main)
 
 	local UIS = game:GetService('UserInputService')
@@ -350,8 +341,8 @@ local function VWDYGD_fake_script() -- main.DragScript
 	end)
 	
 end
-coroutine.wrap(VWDYGD_fake_script)()
-local function JQZU_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(DDIYXZ_fake_script)()
+local function KWTVBPI_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	game.Players.LocalPlayer.PlayerGui.MainInterface.Teleport.Visible = false
@@ -376,58 +367,40 @@ local function JQZU_fake_script() -- TextButton.LocalScript
 		teleport()
 	end)
 end
-coroutine.wrap(JQZU_fake_script)()
-local function MFERYA_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(KWTVBPI_fake_script)()
+local function GDWED_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.PlayerGui.MainInterface.ShopFrame.Visible = true
 	end)
 end
-coroutine.wrap(MFERYA_fake_script)()
-local function YBPQRSD_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(GDWED_fake_script)()
+local function QIUUYRR_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 17.5
 	end)
 end
-coroutine.wrap(YBPQRSD_fake_script)()
-local function PYZZXK_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(QIUUYRR_fake_script)()
+local function LIRBDHO_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/MercyfulSmoked/Xeo/main/Main.lua'))()
-		getgenv().AutoWalking = false
-		getgenv().WebhookURL = "https://discord.com/api/webhooks/1249044596483297346/SYZ85-3Q_sxaZszGU0V2moeHxyA76fq6LDgntxtCW36s3Z3Ys4Nsiayg6Poi72LTtHNi"
-		getgenv().WEBHOOK_BiomeNotifier = true
-		getgenv().WEBHOOK_ItemNotifier = true
-		getgenv().ToUse = {
-			--"Lucky Potion",
-			--"Speed Potion",
-			"Coin",
-			"Gilded Coin",
-			--"Fortune Potion I",
-			--"Fortune Potion II",
-			--"Fortune Potion III",
-			--"Haste Potion I",
-			--"Haste Potion II",
-			--"Haste Potion III"
-		}
-	
-		loadstring(game:HttpGet("https://rizve.us.to/s/sols"))()
 	end)
 end
-coroutine.wrap(PYZZXK_fake_script)()
-local function SAIP_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(LIRBDHO_fake_script)()
+local function HZZW_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.PlayerGui.MainInterface.PotionCraftFrame.Visible = true
 	end)
 end
-coroutine.wrap(SAIP_fake_script)()
-local function WZUSO_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(HZZW_fake_script)()
+local function YGMPP_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	local character = game.Players.LocalPlayer.Character
@@ -444,80 +417,80 @@ local function WZUSO_fake_script() -- TextButton_6.LocalScript
 		disable()
 	end)
 end
-coroutine.wrap(WZUSO_fake_script)()
-local function MEJI_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(YGMPP_fake_script)()
+local function RSPUBUE_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 	end)
 end
-coroutine.wrap(MEJI_fake_script)()
-local function LGBMF_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(RSPUBUE_fake_script)()
+local function CKBER_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		print("ok")
 	end)
 end
-coroutine.wrap(LGBMF_fake_script)()
-local function WRTOLI_fake_script() -- TextButton_9.LocalScript 
+coroutine.wrap(CKBER_fake_script)()
+local function HHQPRTJ_fake_script() -- TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_9)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		print("ok")
 	end)
 end
-coroutine.wrap(WRTOLI_fake_script)()
-local function FGEAYI_fake_script() -- TextButton_10.LocalScript 
+coroutine.wrap(HHQPRTJ_fake_script)()
+local function MZCCGW_fake_script() -- TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_10)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		print("ok")
 	end)
 end
-coroutine.wrap(FGEAYI_fake_script)()
-local function AIAEFX_fake_script() -- TextButton_11.LocalScript 
+coroutine.wrap(MZCCGW_fake_script)()
+local function MOVUXSO_fake_script() -- TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_11)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		print("ok")
 	end)
 end
-coroutine.wrap(AIAEFX_fake_script)()
-local function NYQBS_fake_script() -- TextButton_12.LocalScript 
+coroutine.wrap(MOVUXSO_fake_script)()
+local function RIXYVAE_fake_script() -- TextButton_12.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_12)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		print("ok")
 	end)
 end
-coroutine.wrap(NYQBS_fake_script)()
-local function YSVBHPT_fake_script() -- TextButton_13.LocalScript 
+coroutine.wrap(RIXYVAE_fake_script)()
+local function OUOJH_fake_script() -- TextButton_13.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_13)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		print("ok")
 	end)
 end
-coroutine.wrap(YSVBHPT_fake_script)()
-local function PBWO_fake_script() -- TextButton_14.LocalScript 
+coroutine.wrap(OUOJH_fake_script)()
+local function PIFV_fake_script() -- TextButton_14.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_14)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		print("ok")
 	end)
 end
-coroutine.wrap(PBWO_fake_script)()
-local function BRBOELI_fake_script() -- TextButton_15.LocalScript 
+coroutine.wrap(PIFV_fake_script)()
+local function KGSFIQZ_fake_script() -- TextButton_15.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_15)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		print("ok")
 	end)
 end
-coroutine.wrap(BRBOELI_fake_script)()
-local function JLBB_fake_script() -- TextButton_16.LocalScript 
+coroutine.wrap(KGSFIQZ_fake_script)()
+local function ARGIMP_fake_script() -- TextButton_16.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_16)
 
 	game.Players.LocalPlayer.PlayerGui.MainInterface.Teleport.Visible = false
@@ -542,44 +515,44 @@ local function JLBB_fake_script() -- TextButton_16.LocalScript
 		teleport()
 	end)
 end
-coroutine.wrap(JLBB_fake_script)()
-local function EFCR_fake_script() -- TextButton_17.LocalScript 
+coroutine.wrap(ARGIMP_fake_script)()
+local function XWWKZ_fake_script() -- TextButton_17.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_17)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		print("ok")
 	end)
 end
-coroutine.wrap(EFCR_fake_script)()
-local function BMKF_fake_script() -- TextButton_18.LocalScript 
+coroutine.wrap(XWWKZ_fake_script)()
+local function IJKXZP_fake_script() -- TextButton_18.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_18)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		print("ok")
 	end)
 end
-coroutine.wrap(BMKF_fake_script)()
-local function UUIIBUH_fake_script() -- TextButton_19.LocalScript 
+coroutine.wrap(IJKXZP_fake_script)()
+local function WYDKQHU_fake_script() -- TextButton_19.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_19)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/nc4t/ProtoSmasherWatermark/main/Source.lua",true))()
 	end)
 end
-coroutine.wrap(UUIIBUH_fake_script)()
-local function KHQG_fake_script() -- TextButton_20.LocalScript 
+coroutine.wrap(WYDKQHU_fake_script)()
+local function MZHPN_fake_script() -- TextButton_20.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_20)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		print("ok")
 	end)
 end
-coroutine.wrap(KHQG_fake_script)()
-local function TRTYSS_fake_script() -- TextButton_21.LocalScript 
+coroutine.wrap(MZHPN_fake_script)()
+local function AZKOOJ_fake_script() -- TextButton_21.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_21)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		print("ok")
 	end)
 end
-coroutine.wrap(TRTYSS_fake_script)()
+coroutine.wrap(AZKOOJ_fake_script)()
